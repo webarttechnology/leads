@@ -1,0 +1,176 @@
+2024-01-29T09:46:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_remove_all_quantity_fields" not found or invalid function name in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1576): apply_filters()
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(689): WC_Product->is_sold_individually()
+#3 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(739): wc_get_product_class()
+#4 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/content-single-product.php(34): wc_product_class()
+#5 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template.php(792): require('/home/u78107848...')
+#6 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#7 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/single-product.php(84): wc_get_template_part()
+#8 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include('/home/u78107848...')
+#9 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#10 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#11 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php on line 324
+
+2024-01-29T09:46:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_remove_all_quantity_fields" not found or invalid function name in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1576): apply_filters()
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(689): WC_Product->is_sold_individually()
+#3 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(739): wc_get_product_class()
+#4 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/content-single-product.php(34): wc_product_class()
+#5 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template.php(792): require('/home/u78107848...')
+#6 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#7 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/single-product.php(84): wc_get_template_part()
+#8 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include('/home/u78107848...')
+#9 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#10 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#11 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php on line 324
+
+2024-01-29T09:46:36+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_remove_all_quantity_fields" not found or invalid function name in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1576): apply_filters()
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(689): WC_Product->is_sold_individually()
+#3 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(739): wc_get_product_class()
+#4 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/content-single-product.php(34): wc_product_class()
+#5 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template.php(792): require('/home/u78107848...')
+#6 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#7 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/single-product.php(84): wc_get_template_part()
+#8 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include('/home/u78107848...')
+#9 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#10 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#11 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php on line 324
+
+2024-01-29T09:47:56+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_remove_all_quantity_fields" not found or invalid function name in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1576): apply_filters()
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(689): WC_Product->is_sold_individually()
+#3 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(739): wc_get_product_class()
+#4 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/content-single-product.php(34): wc_product_class()
+#5 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template.php(792): require('/home/u78107848...')
+#6 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#7 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/single-product.php(84): wc_get_template_part()
+#8 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include('/home/u78107848...')
+#9 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#10 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#11 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php on line 324
+
+2024-01-29T09:48:00+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_remove_all_quantity_fields" not found or invalid function name in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1576): apply_filters()
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(689): WC_Product->is_sold_individually()
+#3 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(739): wc_get_product_class()
+#4 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/content-single-product.php(34): wc_product_class()
+#5 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template.php(792): require('/home/u78107848...')
+#6 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#7 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/single-product.php(84): wc_get_template_part()
+#8 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include('/home/u78107848...')
+#9 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#10 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#11 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php on line 324
+
+2024-01-29T09:48:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_remove_all_quantity_fields" not found or invalid function name in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1576): apply_filters()
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(689): WC_Product->is_sold_individually()
+#3 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(739): wc_get_product_class()
+#4 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/content-single-product.php(34): wc_product_class()
+#5 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template.php(792): require('/home/u78107848...')
+#6 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#7 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/single-product.php(84): wc_get_template_part()
+#8 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include('/home/u78107848...')
+#9 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#10 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#11 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php on line 324
+
+2024-01-29T09:48:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_remove_all_quantity_fields" not found or invalid function name in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1576): apply_filters()
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(689): WC_Product->is_sold_individually()
+#3 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(739): wc_get_product_class()
+#4 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/content-single-product.php(34): wc_product_class()
+#5 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template.php(792): require('/home/u78107848...')
+#6 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#7 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/single-product.php(84): wc_get_template_part()
+#8 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include('/home/u78107848...')
+#9 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#10 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#11 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php on line 324
+
+2024-01-29T09:48:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_remove_all_quantity_fields" not found or invalid function name in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1576): apply_filters()
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(689): WC_Product->is_sold_individually()
+#3 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-template-functions.php(739): wc_get_product_class()
+#4 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/content-single-product.php(34): wc_product_class()
+#5 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template.php(792): require('/home/u78107848...')
+#6 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#7 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/woocommerce/single-product.php(84): wc_get_template_part()
+#8 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include('/home/u78107848...')
+#9 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#10 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#11 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/class-wp-hook.php on line 324
+
+2024-01-29T11:16:27+00:00 CRITICAL Uncaught Error: Array callback must have exactly two elements in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php:180
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#3 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php on line 180
+
+2024-01-29T11:16:37+00:00 CRITICAL Uncaught Error: Array callback must have exactly two elements in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php:180
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#3 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php on line 180
+
+2024-01-29T11:17:28+00:00 CRITICAL Uncaught Error: Array callback must have exactly two elements in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php:180
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#3 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php on line 180
+
+2024-01-29T11:23:58+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on array in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php:211
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#3 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php on line 211
+
+2024-01-29T11:34:08+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php:212
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#3 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php on line 212
+
+2024-01-29T11:36:37+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php:212
+Stack trace:
+#0 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-includes/template-loader.php(106): include()
+#1 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-blog-header.php(19): require_once('/home/u78107848...')
+#2 /home/u781078481/domains/dwstaging.link/public_html/cms/leads/index.php(17): require('/home/u78107848...')
+#3 {main}
+  thrown in /home/u781078481/domains/dwstaging.link/public_html/cms/leads/wp-content/themes/lead/page-templates/page-home.php on line 212
+
